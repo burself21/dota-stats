@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "f5196287e67205edcbeb",
-    "url": "/dota-stats/static/css/main.9b3b3c10.chunk.css"
+    "revision": "03b8f7bdba8f0f9fde3c",
+    "url": "/dota-stats/static/css/main.4d304e5c.chunk.css"
   },
   {
-    "revision": "f5196287e67205edcbeb",
+    "revision": "03b8f7bdba8f0f9fde3c",
     "url": "/dota-stats/static/js/main.bba447f8.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/dota-stats/static/media/clock1.8a27eee9.png"
   },
   {
-    "revision": "a9c81cfb927ca3e53a7ffdf54171d395",
+    "revision": "a9681f6841e8d81c5a2094f6cd3ce923",
     "url": "/dota-stats/index.html"
   }
 ];
