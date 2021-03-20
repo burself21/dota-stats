@@ -1,0 +1,118 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .ability {
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    
+    .body_container {
+        width: 250px;
+    }
+
+    .attr {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .attr_value {
+        color: #c0c0c0;
+    }
+    
+    .ability_info {
+        font-weight: bold;
+    }
+    
+    .ability_info_2 {
+        color: #D3D3D3;
+    }
+    
+    .manacost {
+        color: #00A6DE;
+        float: left;
+        line-height: 14px;
+    }
+    
+    .cooldown {
+        color: #778899;
+        font-weight: 450;
+        float: right;
+        line-height: 12px;
+        font-size: 12px;
+    }
+    
+    .mc_cd_container {
+        clear: both;
+    }
+    
+    .cooldown::before {
+    
+        background-size: 12px 12px;
+        background-image: url(./clock1.png);
+        display: inline-block;
+        width: 12px; 
+        height: 12px;
+        content:"";
+        margin-bottom: -2px;
+        margin-right: 2px;
+    
+    }
+    
+    .pure, .magical, .physical, .spell_immune, .non_spell_immune {
+        font-weight: bold;
+    }
+    
+    .pure {
+        color: #C29C4A;
+    }
+    
+    .physical {
+        color:#AE2F28;
+    }
+    
+    .magical {
+        color:#5B93D1;
+    }
+    
+    .spell_immune {
+        color: #6EE56E;
+    }
+    
+    .non_spell_immune {
+        color: white;
+    }
+    
+    
+    .img_container_4 > img, .img_container_5 > img, .img_container_6 > img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .body_container {
+        width: 215px;
+    }
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .body_container {
+        width: 250px;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .img_container_5 {
+
+    }
+
+    .body_container {
+        width: 275px;
+    }
+    
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .body_container {
+        width: 300px;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    
+}
+

@@ -1,0 +1,117 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .container {
+        position: absolute;
+        left: 17.5vw;
+        top: 10vh;
+        width: 65vw;
+        background-color: #111111!important;
+    }
+    
+    .item__img {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .item__name {
+        text-transform: uppercase;
+        font-weight: bold!important;
+        font-size: 1.125rem!important;
+        font-family: serif!important;
+        color: white;
+    }
+
+    .name_text {
+
+    }
+
+    .item__header {
+        text-align: left;
+    }
+
+    .item__cost {
+        color: #F0C031;
+    }
+
+    .stat_value {
+        color: #F0C031;
+    }
+
+    .stat__text {
+        margin-bottom: 0px;
+        margin-top: 4px;
+    }
+
+    .item__info {
+        color: #C0C0C0;
+        text-align: left;
+        clear: both;
+        margin-top: 25px;
+    }
+
+
+    .manacost {
+        color: #00A6DE;
+        float: left;
+        line-height: 14px;
+    }
+
+    .cooldown {
+        color: #778899;
+        font-weight: 450;
+        float: right;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .mc_cd_container {
+        clear: both;
+    }
+
+    .cooldown::before {
+
+        background-size: 12px 12px;
+        background-image: url(./clock1.png);
+        display: inline-block;
+        width: 12px; 
+        height: 12px;
+        content:"";
+        margin-bottom: -2px;
+        margin-right: 2px;
+
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .container {
+        left: 20vw;
+        top: 15vh;
+        width: 60vw;
+    }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .container {
+        left: 27.5vw;
+        top: 20vh;
+        width: 45vw;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .container {
+        left: 33vw;
+        top: 22vh;
+        width: 34vw;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .container {
+        left: 34vw;
+        top: 22vh;
+        width: 32vw;
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .container {
+        left: 38vw;
+        top: 25vh;
+        width: 24vw;
+    }
+}

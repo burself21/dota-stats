@@ -1,0 +1,17 @@
+.type_container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.type_specific_container {
+    text-align: center;
+}
+
+.type_header {
+    color: black;
+    font-weight: 10000;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 28px;
+}

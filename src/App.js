@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Helmet } from 'react-helmet';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect
+} from "react-router-dom";
+
+import Home from './Pages/Home/Home';
+
+
+class App extends React.Component {
+
+    render() {
+        return (
+            <Router basename={process.env.PUBLIC_URL}>
+                <div id='app-main'>
+                    <Switch>
+                        <Route exact path="/">
+                            <Helmet>
+                                <title> Dota Stats </title>
+                            </Helmet>
+                            <Home />
+                        </Route>
+                        <Route path="/home">
+                            <Redirect to="/" />
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
+        );
+    }
 }
 
 export default App;

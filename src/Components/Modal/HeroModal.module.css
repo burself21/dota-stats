@@ -1,0 +1,7 @@
+button {
+    padding: 5px;
+}
+
+button > img {
+    margin-bottom: -5px;
+}
