@@ -1,13 +1,13 @@
 {
   "main.css": "/dota-stats/static/css/main.22adacae.chunk.css",
-  "main.js": "/dota-stats/static/js/main.40b1c028.chunk.js",
-  "main.js.map": "/dota-stats/static/js/main.40b1c028.chunk.js.map",
+  "main.js": "/dota-stats/static/js/main.c8f23efc.chunk.js",
+  "main.js.map": "/dota-stats/static/js/main.c8f23efc.chunk.js.map",
   "runtime~main.js": "/dota-stats/static/js/runtime~main.5248668e.js",
   "runtime~main.js.map": "/dota-stats/static/js/runtime~main.5248668e.js.map",
   "static/js/2.573877cb.chunk.js": "/dota-stats/static/js/2.573877cb.chunk.js",
   "static/js/2.573877cb.chunk.js.map": "/dota-stats/static/js/2.573877cb.chunk.js.map",
   "index.html": "/dota-stats/index.html",
-  "precache-manifest.85c3c90410244a5095bc82f165b44e1d.js": "/dota-stats/precache-manifest.85c3c90410244a5095bc82f165b44e1d.js",
+  "precache-manifest.4eb6637a9ef6f3b3bf4c9ecf9d2a9400.js": "/dota-stats/precache-manifest.4eb6637a9ef6f3b3bf4c9ecf9d2a9400.js",
   "service-worker.js": "/dota-stats/service-worker.js",
   "static/css/main.22adacae.chunk.css.map": "/dota-stats/static/css/main.22adacae.chunk.css.map",
   "static/media/ItemCard.module.css": "/dota-stats/static/media/clock1.8a27eee9.png"
